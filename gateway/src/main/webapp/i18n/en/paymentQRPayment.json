@@ -1,0 +1,33 @@
+{
+  "gatewayApp": {
+    "paymentsQRPayment": {
+      "home": {
+        "title": "QR Payments",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new QR Payment",
+        "createOrEditLabel": "Create or edit a QR Payment",
+        "notFound": "No QR Payments found"
+      },
+      "delete": {
+        "question": "Are you sure you want to delete QR Payment {{ id }}?"
+      },
+      "detail": {
+        "title": "QR Payment"
+      },
+      "id": "ID",
+      "qrCode": "Qr Code",
+      "amount": "Amount",
+      "paymentDate": "Payment Date",
+      "description": "Description",
+      "payment": "Payment",
+      "actions": "Actions"
+    }
+  },
+  "paymentsApp": {
+    "paymentsQRPayment": {
+      "created": "A new QR Payment is created with identifier {{ param }}",
+      "updated": "A QR Payment is updated with identifier {{ param }}",
+      "deleted": "A QR Payment is deleted with identifier {{ param }}"
+    }
+  }
+}

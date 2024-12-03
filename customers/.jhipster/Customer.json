@@ -1,0 +1,102 @@
+{
+  "annotations": {
+    "changelogDate": "20241107231437"
+  },
+  "clientRootFolder": "customers",
+  "databaseType": "sql",
+  "fields": [
+    {
+      "fieldName": "login",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "fullName",
+      "fieldType": "String",
+      "fieldValidateRules": ["required", "minlength", "maxlength"],
+      "fieldValidateRulesMaxlength": "100",
+      "fieldValidateRulesMinlength": "2"
+    },
+    {
+      "fieldName": "motherName",
+      "fieldType": "String",
+      "fieldValidateRules": ["required", "minlength", "maxlength"],
+      "fieldValidateRulesMaxlength": "100",
+      "fieldValidateRulesMinlength": "2"
+    },
+    {
+      "fieldName": "nationalId",
+      "fieldType": "String",
+      "fieldValidateRules": ["required", "minlength", "maxlength", "pattern"],
+      "fieldValidateRulesMaxlength": "12",
+      "fieldValidateRulesMinlength": "12",
+      "fieldValidateRulesPattern": "^[0-9]{12}$"
+    },
+    {
+      "fieldName": "dateOfBirth",
+      "fieldType": "LocalDate",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "gender",
+      "fieldType": "Gender",
+      "fieldValidateRules": ["required"],
+      "fieldValues": "MALE,FEMALE"
+    },
+    {
+      "fieldName": "phoneNumber",
+      "fieldType": "String",
+      "fieldValidateRules": ["required", "minlength", "maxlength", "pattern"],
+      "fieldValidateRulesMaxlength": "15",
+      "fieldValidateRulesMinlength": "10",
+      "fieldValidateRulesPattern": "^[+]?[0-9]{10,15}$"
+    },
+    {
+      "fieldName": "email",
+      "fieldType": "String",
+      "fieldValidateRules": ["required", "pattern"],
+      "fieldValidateRulesPattern": "^[^@]+@[^@]+\\.[^@]+$"
+    },
+    {
+      "fieldName": "addressLine1",
+      "fieldType": "String",
+      "fieldValidateRules": ["required", "maxlength"],
+      "fieldValidateRulesMaxlength": "200"
+    },
+    {
+      "fieldName": "employmentStatus",
+      "fieldType": "EmploymentStatus",
+      "fieldValidateRules": ["required"],
+      "fieldValues": "EMPLOYED,STUDENT,UNEMPLOYED,RETIRED"
+    },
+    {
+      "fieldName": "registrationDate",
+      "fieldType": "Instant",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "lastUpdate",
+      "fieldType": "Instant",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "nationality",
+      "fieldType": "NationalityType",
+      "fieldValidateRules": ["required"],
+      "fieldValues": "LIBYAN,FOREIGN_RESIDENT"
+    },
+    {
+      "fieldName": "city",
+      "fieldType": "CityType",
+      "fieldValidateRules": ["required"],
+      "fieldValues": "TRIPOLI,BENGHAZI,MISRATA,ZAWIYA,ZLITEN,KHOMS,GHARYAN,SIRTE,SABHA,AL_BAYDA,TOBRUK,DERNA,AJDABIYA,ALMARJ,GHAT,MURZUQ"
+    }
+  ],
+  "microserviceName": "customers",
+  "name": "Customer",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [],
+  "searchEngine": "no",
+  "service": "no"
+}

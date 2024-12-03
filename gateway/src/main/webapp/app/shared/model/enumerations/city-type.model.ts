@@ -1,0 +1,33 @@
+export enum CityType {
+  TRIPOLI = 'TRIPOLI',
+
+  BENGHAZI = 'BENGHAZI',
+
+  MISRATA = 'MISRATA',
+
+  ZAWIYA = 'ZAWIYA',
+
+  ZLITEN = 'ZLITEN',
+
+  KHOMS = 'KHOMS',
+
+  GHARYAN = 'GHARYAN',
+
+  SIRTE = 'SIRTE',
+
+  SABHA = 'SABHA',
+
+  AL_BAYDA = 'AL_BAYDA',
+
+  TOBRUK = 'TOBRUK',
+
+  DERNA = 'DERNA',
+
+  AJDABIYA = 'AJDABIYA',
+
+  ALMARJ = 'ALMARJ',
+
+  GHAT = 'GHAT',
+
+  MURZUQ = 'MURZUQ',
+}

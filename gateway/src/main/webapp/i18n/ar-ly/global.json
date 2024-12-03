@@ -1,0 +1,156 @@
+{
+  "global": {
+    "title": "Zenith",
+    "browsehappy": "أنت تستخدم متصفح <strong>قديم</strong>. من فضلك <a href=\"http://browsehappy.com/?locale=en\">قم بتحديث متصفحك</a> لتحسين تجربتك.",
+    "menu": {
+      "home": "الصفحة الرئيسية",
+      "jhipster-needle-menu-add-element": "JHipster سيضيف إدخالات إضافية هنا (لا تترجم!)",
+      "entities": {
+        "main": "الكيانات",
+        "jhipster-needle-menu-add-entry": "JHipster سيضيف كيانات إضافية هنا (لا تترجم!)",
+        "customersCustomer": "Customer",
+        "customersDocument": "Document",
+        "accountsBankAccount": "Bank Account",
+        "accountsLocaltransfer": "Localtransfer",
+        "accountsInternatonalTransfer": "Internatonal Transfer",
+        "paymentPayment": "Payment",
+        "paymentQrPayment": "QR Payment",
+        "paymentBillPayment": "Bill Payment",
+        "paymentCardPayment": "Card Payment"
+      },
+      "account": {
+        "main": "الحساب",
+        "settings": "الإعدادات",
+        "password": "كلمة المرور",
+        "sessions": "الجلسات",
+        "login": "تسجيل الدخول",
+        "logout": "تسجيل الخروج",
+        "register": "التسجيل"
+      },
+      "admin": {
+        "main": "الإدارة",
+        "gateway": "البوابة",
+        "userManagement": "إدارة المستخدمين",
+        "tracker": "تتبع المستخدمين",
+        "metrics": "المقاييس",
+        "health": "الصحة",
+        "configuration": "الإعدادات",
+        "logs": "السجلات",
+        "apidocs": "API",
+        "database": "قاعدة البيانات",
+        "jhipster-needle-menu-add-admin-element": "JHipster سيضيف إدخالات إضافية هنا (لا تترجم!)"
+      },
+      "language": "اللغة"
+    },
+    "form": {
+      "username.label": "اسم المستخدم",
+      "username.placeholder": "اسم المستخدم الخاص بك",
+      "currentpassword.label": "كلمة المرور الحالية",
+      "currentpassword.placeholder": "كلمة المرور الحالية",
+      "newpassword.label": "كلمة المرور الجديدة",
+      "newpassword.placeholder": "كلمة المرور الجديدة",
+      "confirmpassword.label": "تأكيد كلمة المرور الجديدة",
+      "confirmpassword.placeholder": "تأكيد كلمة المرور الجديدة",
+      "email.label": "البريد الإلكتروني",
+      "email.placeholder": "بريدك الإلكتروني"
+    },
+    "messages": {
+      "info": {
+        "authenticated": {
+          "prefix": "إذا كنت ترغب في ",
+          "link": "تسجيل الدخول",
+          "suffix": "، يمكنك تجربة الحسابات الافتراضية التالية:<br/>- المدير (اسم المستخدم=\"admin\" وكلمة المرور=\"admin\") <br/>- المستخدم (اسم المستخدم=\"user\" وكلمة المرور=\"user\")."
+        },
+        "register": {
+          "noaccount": "لا تمتلك حسابًا بعد؟",
+          "link": "سجل حسابًا جديدًا"
+        }
+      },
+      "error": {
+        "dontmatch": "كلمة المرور وتأكيدها غير متطابقين!"
+      },
+      "validate": {
+        "newpassword": {
+          "required": "كلمة المرور مطلوبة.",
+          "minlength": "كلمة المرور يجب أن تكون على الأقل 4 أحرف.",
+          "maxlength": "كلمة المرور يجب ألا تزيد عن 50 حرفًا.",
+          "strength": "قوة كلمة المرور:"
+        },
+        "confirmpassword": {
+          "required": "تأكيد كلمة المرور مطلوب.",
+          "minlength": "تأكيد كلمة المرور يجب أن يكون على الأقل 4 أحرف.",
+          "maxlength": "تأكيد كلمة المرور يجب ألا يزيد عن 50 حرفًا."
+        },
+        "email": {
+          "required": "البريد الإلكتروني مطلوب.",
+          "invalid": "البريد الإلكتروني غير صحيح.",
+          "minlength": "البريد الإلكتروني يجب أن يكون على الأقل 5 أحرف.",
+          "maxlength": "البريد الإلكتروني يجب ألا يزيد عن 50 حرفًا."
+        }
+      }
+    },
+    "field": {
+      "id": "المعرف"
+    },
+    "ribbon": {
+      "dev": "تطوير"
+    },
+    "item-count": "عرض {{first}} - {{second}} من {{total}} العناصر."
+  },
+  "entity": {
+    "action": {
+      "addblob": "إضافة ملف",
+      "addimage": "إضافة صورة",
+      "back": "رجوع",
+      "cancel": "إلغاء",
+      "delete": "حذف",
+      "edit": "تعديل",
+      "open": "فتح",
+      "save": "حفظ",
+      "view": "عرض",
+      "show": "عرض {{otherEntity}}"
+    },
+    "detail": {
+      "field": "الحقل",
+      "value": "القيمة"
+    },
+    "delete": {
+      "title": "تأكيد عملية الحذف"
+    },
+    "validation": {
+      "required": "هذا الحقل مطلوب.",
+      "minlength": "يجب أن يحتوي هذا الحقل على الأقل {{min}} أحرف.",
+      "maxlength": "لا يمكن أن يحتوي هذا الحقل على أكثر من {{max}} أحرف.",
+      "min": "يجب أن تكون القيمة على الأقل {{min}}.",
+      "max": "لا يمكن أن تكون القيمة أكثر من {{max}}.",
+      "minbytes": "يجب أن يحتوي هذا الحقل على الأقل {{min}} بايت.",
+      "maxbytes": "لا يمكن أن يحتوي هذا الحقل على أكثر من {{max}} بايت.",
+      "pattern": "هذا الحقل يجب أن يتبع النمط {{pattern}}.",
+      "number": "هذا الحقل يجب أن يكون رقمًا.",
+      "datetimelocal": "هذا الحقل يجب أن يكون تاريخًا ووقتًا."
+    },
+    "filters": {
+      "set": "تم تعيين الفلاتر التالية",
+      "clear": "مسح الفلتر",
+      "clearAll": "مسح جميع الفلاتر"
+    }
+  },
+  "error": {
+    "internalServerError": "حدث خطأ داخلي في الخادم",
+    "server.not.reachable": "لا يمكن الوصول إلى الخادم",
+    "url.not.found": "الرابط غير موجود",
+    "NotNull": "الحقل {{fieldName}} لا يمكن أن يكون فارغًا!",
+    "Size": "الحقل {{fieldName}} لا يلبي متطلبات الحجم الأدنى/الأقصى!",
+    "userexists": "اسم المستخدم موجود بالفعل!",
+    "emailexists": "البريد الإلكتروني مستخدم بالفعل!",
+    "idexists": "لا يمكن أن يحتوي {{entityName}} الجديد على معرف موجود.",
+    "idnull": "المعرف غير صالح",
+    "idinvalid": "المعرف غير صالح",
+    "idnotfound": "لا يمكن العثور على المعرف",
+    "file": {
+      "could.not.extract": "تعذر استخراج الملف",
+      "not.image": "كان من المتوقع أن يكون الملف صورة ولكنه كان \"{{fileType}}\""
+    }
+  },
+  "footer": "هذا هو الفوتر الخاص بك"
+}

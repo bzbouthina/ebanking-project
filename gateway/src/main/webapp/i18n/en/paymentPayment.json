@@ -1,0 +1,42 @@
+{
+  "gatewayApp": {
+    "paymentPayment": {
+      "home": {
+        "title": "Payments",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Payment",
+        "createOrEditLabel": "Create or edit a Payment",
+        "notFound": "No Payments found"
+      },
+      "delete": {
+        "question": "Are you sure you want to delete Payment {{ id }}?"
+      },
+      "detail": {
+        "title": "Payment"
+      },
+      "id": "ID",
+      "transactionId": "Transaction Id",
+      "login": "Login",
+      "amount": "Amount",
+      "paymentType": "Payment Type",
+      "paymentDate": "Payment Date",
+      "description": "Description",
+      "status": "Status",
+      "createdBy": "Created By",
+      "createdDate": "Created Date",
+      "lastModifiedBy": "Last Modified By",
+      "lastModifiedDate": "Last Modified Date",
+      "paymentId": "Payment Id",
+      "qRPayment": "Q R Payment",
+      "cardPayment": "Card Payment",
+      "billPayment": "Bill Payment"
+    }
+  },
+  "paymentApp": {
+    "paymentPayment": {
+      "created": "A new Payment is created with identifier {{ param }}",
+      "updated": "A Payment is updated with identifier {{ param }}",
+      "deleted": "A Payment is deleted with identifier {{ param }}"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "gatewayApp": {
+    "accountsLocaltransfer": {
+      "home": {
+        "title": "Localtransfers",
+        "refreshListLabel": "تحديث القائمة",
+        "createLabel": "إنشاء Localtransfer جديد",
+        "createOrEditLabel": "إنشاء أو تعديل Localtransfer",
+        "notFound": "لم يتم العثور على Localtransfers"
+      },
+      "delete": {
+        "question": "هل أنت متأكد أنك تريد حذف Localtransfer {{ id }}؟"
+      },
+      "detail": {
+        "title": "Localtransfer"
+      },
+      "id": "ID",
+      "senderAccountNumber": "Sender Account Number",
+      "recipientAccountNumber": "Recipient Account Number",
+      "recipientBankName": "Recipient Bank Name",
+      "recipientBankBranch": "Recipient Bank Branch",
+      "amount": "Amount",
+      "transactionDate": "Transaction Date",
+      "description": "Description",
+      "bankAccount": "Bank Account"
+    }
+  },
+  "accountsApp": {
+    "accountsLocaltransfer": {
+      "created": "Localtransfer جديد تم إنشاؤه بالمعرف {{ param }}",
+      "updated": "Localtransfer تم تحديثه بالمعرف {{ param }}",
+      "deleted": "Localtransfer تم حذفه بالمعرف {{ param }}"
+    }
+  }
+}

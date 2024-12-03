@@ -1,0 +1,55 @@
+{
+  "annotations": {
+    "changelogDate": "20241107233637"
+  },
+  "clientRootFolder": "customers",
+  "databaseType": "sql",
+  "fields": [
+    {
+      "fieldName": "documentNumber",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "documentType",
+      "fieldType": "DocumentType",
+      "fieldValidateRules": ["required"],
+      "fieldValues": "NATIONAL_ID,PASSPORT,NATIONAL_NUMBER,PHONE_LINKED_TO_NATIONAL_NUMBER,RESIDENT_PERMIT,PHOTO"
+    },
+    {
+      "fieldName": "issueDate",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "expiryDate",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "filePath",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "uploadedAt",
+      "fieldType": "Instant",
+      "fieldValidateRules": ["required"]
+    }
+  ],
+  "microserviceName": "customers",
+  "microservicePath": "D:\\ebank project\\customers",
+  "name": "Document",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityField": "login",
+      "otherEntityName": "customer",
+      "otherEntityRelationshipName": "document",
+      "relationshipName": "customer",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "searchEngine": "no",
+  "service": "no"
+}

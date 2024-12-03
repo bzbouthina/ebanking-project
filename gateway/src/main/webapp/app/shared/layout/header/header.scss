@@ -1,0 +1,54 @@
+/* شريط التنقل */
+.navbar-custom {
+  background-color: #00264d !important;
+  padding: 10px 20px;
+
+  .navbar-nav .nav-link {
+    color: #ffffff !important;
+    font-weight: bold;
+    transition: color 0.3s ease;
+
+    &:hover {
+      color: #ff9900 !important;
+      text-decoration: underline;
+    }
+  }
+
+  .navbar-toggler {
+    border-color: #ff9900;
+
+    &:hover {
+      background-color: #004080;
+    }
+  }
+
+  .navbar-brand {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #ff9900 !important;
+
+    &:hover {
+      color: #ffffff !important;
+    }
+  }
+}
+
+/* الشريط التنقل */
+.ribbon.dev {
+  background-color: rgba(170, 0, 0, 0.5);
+  color: #ffffff;
+  font-size: 0.9rem;
+  padding: 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.loading-bar {
+  height: 4px;
+  background-color: #0066cc;
+  position: absolute;
+  top: 0;
+  z-index: 1031;
+}

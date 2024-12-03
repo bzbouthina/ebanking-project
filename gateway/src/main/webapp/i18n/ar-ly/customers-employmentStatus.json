@@ -1,0 +1,11 @@
+{
+  "gatewayApp": {
+    "EmploymentStatus": {
+      "null": "",
+      "EMPLOYED": "EMPLOYED",
+      "STUDENT": "STUDENT",
+      "UNEMPLOYED": "UNEMPLOYED",
+      "RETIRED": "RETIRED"
+    }
+  }
+}

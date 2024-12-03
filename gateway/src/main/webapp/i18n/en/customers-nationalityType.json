@@ -1,0 +1,9 @@
+{
+  "gatewayApp": {
+    "NationalityType": {
+      "null": "",
+      "LIBYAN": "LIBYAN",
+      "FOREIGN_RESIDENT": "FOREIGN_RESIDENT"
+    }
+  }
+}

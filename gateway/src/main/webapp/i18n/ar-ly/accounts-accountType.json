@@ -1,0 +1,10 @@
+{
+  "gatewayApp": {
+    "AccountType": {
+      "null": "",
+      "CHEKING": "CHEKING",
+      "SAVING": "SAVING",
+      "BUSINESS": "BUSINESS"
+    }
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "annotations": {
+    "changelogDate": "20241128172010"
+  },
+  "clientRootFolder": "accounts",
+  "databaseType": "sql",
+  "fields": [
+    {
+      "fieldName": "login",
+      "fieldType": "String",
+      "fieldValidateRules": ["required", "unique"]
+    },
+    {
+      "fieldName": "accountNumber",
+      "fieldType": "String",
+      "fieldValidateRules": ["required", "unique", "minlength", "maxlength", "pattern"],
+      "fieldValidateRulesMaxlength": "20",
+      "fieldValidateRulesMinlength": "10",
+      "fieldValidateRulesPattern": "^[0-9A-Z]+$"
+    },
+    {
+      "fieldName": "iban",
+      "fieldType": "String",
+      "fieldValidateRules": ["unique", "minlength", "maxlength", "pattern"],
+      "fieldValidateRulesMaxlength": "34",
+      "fieldValidateRulesMinlength": "15",
+      "fieldValidateRulesPattern": "^[A-Z0-9]+$"
+    },
+    {
+      "fieldName": "balance",
+      "fieldType": "BigDecimal",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "currency",
+      "fieldType": "String",
+      "fieldValidateRules": ["required", "maxlength", "pattern"],
+      "fieldValidateRulesMaxlength": "3",
+      "fieldValidateRulesPattern": "^[A-Z]{3}$"
+    },
+    {
+      "fieldName": "openingDate",
+      "fieldType": "LocalDate",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "status",
+      "fieldType": "AccountStatus",
+      "fieldValidateRules": ["required"],
+      "fieldValues": "ACTIVE,CLOSEED,SUSPENDED"
+    },
+    {
+      "fieldName": "accountType",
+      "fieldType": "AccountType",
+      "fieldValidateRules": ["required"],
+      "fieldValues": "CHEKING,SAVING,BUSINESS"
+    },
+    {
+      "fieldName": "branch",
+      "fieldType": "String",
+      "fieldValidateRules": ["required", "minlength", "maxlength"],
+      "fieldValidateRulesMaxlength": "50",
+      "fieldValidateRulesMinlength": "2"
+    }
+  ],
+  "microserviceName": "accounts",
+  "name": "BankAccount",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [],
+  "searchEngine": "no",
+  "service": "no"
+}

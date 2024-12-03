@@ -1,0 +1,10 @@
+{
+  "gatewayApp": {
+    "AccountStatus": {
+      "null": "",
+      "ACTIVE": "ACTIVE",
+      "CLOSEED": "CLOSEED",
+      "SUSPENDED": "SUSPENDED"
+    }
+  }
+}

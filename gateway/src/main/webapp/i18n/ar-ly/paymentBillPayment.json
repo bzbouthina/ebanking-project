@@ -1,0 +1,33 @@
+{
+  "gatewayApp": {
+    "paymentBillPayment": {
+      "home": {
+        "title": "Bill Payments",
+        "refreshListLabel": "تحديث القائمة",
+        "createLabel": "إنشاء Bill Payment جديد",
+        "createOrEditLabel": "إنشاء أو تعديل Bill Payment",
+        "notFound": "لم يتم العثور على Bill Payments"
+      },
+      "delete": {
+        "question": "هل أنت متأكد أنك تريد حذف Bill Payment {{ id }}؟"
+      },
+      "detail": {
+        "title": "Bill Payment"
+      },
+      "id": "ID",
+      "billReference": "Bill Reference",
+      "billIssuer": "Bill Issuer",
+      "amount": "Amount",
+      "paymentDate": "Payment Date",
+      "description": "Description",
+      "payment": "Payment"
+    }
+  },
+  "paymentApp": {
+    "paymentBillPayment": {
+      "created": "Bill Payment جديد تم إنشاؤه بالمعرف {{ param }}",
+      "updated": "Bill Payment تم تحديثه بالمعرف {{ param }}",
+      "deleted": "Bill Payment تم حذفه بالمعرف {{ param }}"
+    }
+  }
+}

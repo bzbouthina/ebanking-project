@@ -1,0 +1,74 @@
+{
+  "annotations": {
+    "changelogDate": "20241128191404"
+  },
+  "clientRootFolder": "accounts",
+  "databaseType": "sql",
+  "fields": [
+    {
+      "fieldName": "senderAccountNumber",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "recipientIban",
+      "fieldType": "String",
+      "fieldValidateRules": ["required", "minlength", "maxlength", "pattern"],
+      "fieldValidateRulesMaxlength": "34",
+      "fieldValidateRulesMinlength": "15",
+      "fieldValidateRulesPattern": "^[A-Z0-9]+$"
+    },
+    {
+      "fieldName": "swiftCode",
+      "fieldType": "String",
+      "fieldValidateRules": ["required", "maxlength"],
+      "fieldValidateRulesMaxlength": "11"
+    },
+    {
+      "fieldName": "recipientName",
+      "fieldType": "String",
+      "fieldValidateRules": ["required", "minlength", "maxlength"],
+      "fieldValidateRulesMaxlength": "100",
+      "fieldValidateRulesMinlength": "2"
+    },
+    {
+      "fieldName": "amount",
+      "fieldType": "BigDecimal",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "currency",
+      "fieldType": "CurrencyType",
+      "fieldValidateRules": ["required"],
+      "fieldValues": "USD,EUR,LYD,GBP,AED,SAR,CAD,AUD,CHF,JPY"
+    },
+    {
+      "fieldName": "transactionDate",
+      "fieldType": "Instant",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "description",
+      "fieldType": "String",
+      "fieldValidateRules": ["maxlength"],
+      "fieldValidateRulesMaxlength": "225"
+    }
+  ],
+  "microserviceName": "accounts",
+  "name": "InternatonalTransfer",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityField": "iban",
+      "otherEntityName": "bankAccount",
+      "otherEntityRelationshipName": "internatonalTransfer",
+      "relationshipName": "bankAccount",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-one",
+      "relationshipValidateRules": ["required"]
+    }
+  ],
+  "searchEngine": "no",
+  "service": "no"
+}

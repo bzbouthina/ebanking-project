@@ -1,0 +1,10 @@
+{
+  "gatewayApp": {
+    "PaymentType": {
+      "null": "",
+      "QR": "QR",
+      "CARD": "CARD",
+      "BILL": "BILL"
+    }
+  }
+}

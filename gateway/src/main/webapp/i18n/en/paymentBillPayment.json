@@ -1,0 +1,33 @@
+{
+  "gatewayApp": {
+    "paymentBillPayment": {
+      "home": {
+        "title": "Bill Payments",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Bill Payment",
+        "createOrEditLabel": "Create or edit a Bill Payment",
+        "notFound": "No Bill Payments found"
+      },
+      "delete": {
+        "question": "Are you sure you want to delete Bill Payment {{ id }}?"
+      },
+      "detail": {
+        "title": "Bill Payment"
+      },
+      "id": "ID",
+      "billReference": "Bill Reference",
+      "billIssuer": "Bill Issuer",
+      "amount": "Amount",
+      "paymentDate": "Payment Date",
+      "description": "Description",
+      "payment": "Payment"
+    }
+  },
+  "paymentApp": {
+    "paymentBillPayment": {
+      "created": "A new Bill Payment is created with identifier {{ param }}",
+      "updated": "A Bill Payment is updated with identifier {{ param }}",
+      "deleted": "A Bill Payment is deleted with identifier {{ param }}"
+    }
+  }
+}

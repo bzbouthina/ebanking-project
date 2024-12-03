@@ -1,0 +1,19 @@
+{
+  "home": {
+    "title": "Welcome to Zenith EBank!",
+    "subtitle": "Your gateway to a seamless digital banking experience",
+    "logged": {
+      "message": "You are logged in as user \"{{username}}\"."
+    },
+    "question": "If you have any questions about our services:",
+    "link": {
+      "homepage": "Zenith EBank homepage",
+      "stackoverflow": "Zenith EBank on Stack Overflow",
+      "bugtracker": "Zenith EBank bug tracker",
+      "chat": "Zenith EBank public chat room",
+      "follow": "follow us on Twitter"
+    },
+    "like": "If you enjoy our services, don't forget to leave us a star on",
+    "github": "GitHub"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "gatewayApp": {
+    "accountsBankAccount": {
+      "home": {
+        "title": "Bank Accounts",
+        "refreshListLabel": "تحديث القائمة",
+        "createLabel": "إنشاء Bank Account جديد",
+        "createOrEditLabel": "إنشاء أو تعديل Bank Account",
+        "notFound": "لم يتم العثور على Bank Accounts"
+      },
+      "delete": {
+        "question": "هل أنت متأكد أنك تريد حذف Bank Account {{ id }}؟"
+      },
+      "detail": {
+        "title": "Bank Account"
+      },
+      "id": "ID",
+      "login": "Login",
+      "accountNumber": "Account Number",
+      "iban": "Iban",
+      "balance": "Balance",
+      "currency": "Currency",
+      "openingDate": "Opening Date",
+      "status": "Status",
+      "accountType": "Account Type",
+      "branch": "Branch",
+      "localtransfer": "Localtransfer",
+      "internatonalTransfer": "Internatonal Transfer"
+    }
+  },
+  "accountsApp": {
+    "accountsBankAccount": {
+      "created": "Bank Account جديد تم إنشاؤه بالمعرف {{ param }}",
+      "updated": "Bank Account تم تحديثه بالمعرف {{ param }}",
+      "deleted": "Bank Account تم حذفه بالمعرف {{ param }}"
+    }
+  }
+}

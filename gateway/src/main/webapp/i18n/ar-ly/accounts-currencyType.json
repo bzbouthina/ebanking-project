@@ -1,0 +1,17 @@
+{
+  "gatewayApp": {
+    "CurrencyType": {
+      "null": "",
+      "USD": "USD",
+      "EUR": "EUR",
+      "LYD": "LYD",
+      "GBP": "GBP",
+      "AED": "AED",
+      "SAR": "SAR",
+      "CAD": "CAD",
+      "AUD": "AUD",
+      "CHF": "CHF",
+      "JPY": "JPY"
+    }
+  }
+}

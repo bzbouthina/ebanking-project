@@ -1,0 +1,13 @@
+{
+  "gatewayApp": {
+    "PaymentStatus": {
+      "null": "",
+      "PENDING": "PENDING",
+      "PROCESSING": "PROCESSING",
+      "ON_HOLD": "ON_HOLD",
+      "COMPLETED": "COMPLETED",
+      "FAILED": "FAILED",
+      "CANCELLED": "CANCELLED"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "gatewayApp": {
+    "DocumentType": {
+      "null": "",
+      "NATIONAL_ID": "NATIONAL_ID",
+      "PASSPORT": "PASSPORT",
+      "NATIONAL_NUMBER": "NATIONAL_NUMBER",
+      "PHONE_LINKED_TO_NATIONAL_NUMBER": "PHONE_LINKED_TO_NATIONAL_NUMBER",
+      "RESIDENT_PERMIT": "RESIDENT_PERMIT",
+      "PHOTO": "PHOTO"
+    }
+  }
+}

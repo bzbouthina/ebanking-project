@@ -1,0 +1,34 @@
+{
+  "gatewayApp": {
+    "customersDocument": {
+      "home": {
+        "title": "Documents",
+        "refreshListLabel": "تحديث القائمة",
+        "createLabel": "إنشاء Document جديد",
+        "createOrEditLabel": "إنشاء أو تعديل Document",
+        "notFound": "لم يتم العثور على Documents"
+      },
+      "delete": {
+        "question": "هل أنت متأكد أنك تريد حذف Document {{ id }}؟"
+      },
+      "detail": {
+        "title": "Document"
+      },
+      "id": "ID",
+      "documentNumber": "Document Number",
+      "documentType": "Document Type",
+      "issueDate": "Issue Date",
+      "expiryDate": "Expiry Date",
+      "filePath": "File Path",
+      "uploadedAt": "Uploaded At",
+      "customer": "Customer"
+    }
+  },
+  "customersApp": {
+    "customersDocument": {
+      "created": "Document جديد تم إنشاؤه بالمعرف {{ param }}",
+      "updated": "Document تم تحديثه بالمعرف {{ param }}",
+      "deleted": "Document تم حذفه بالمعرف {{ param }}"
+    }
+  }
+}

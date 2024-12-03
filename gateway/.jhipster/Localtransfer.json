@@ -1,0 +1,64 @@
+{
+  "annotations": {
+    "changelogDate": "20241128185026"
+  },
+  "clientRootFolder": "accounts",
+  "databaseType": "sql",
+  "fields": [
+    {
+      "fieldName": "senderAccountNumber",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "recipientAccountNumber",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "recipientBankName",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "recipientBankBranch",
+      "fieldType": "String",
+      "fieldValidateRules": ["maxlength"],
+      "fieldValidateRulesMaxlength": "50"
+    },
+    {
+      "fieldName": "amount",
+      "fieldType": "BigDecimal",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "transactionDate",
+      "fieldType": "Instant",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "description",
+      "fieldType": "String",
+      "fieldValidateRules": ["maxlength"],
+      "fieldValidateRulesMaxlength": "225"
+    }
+  ],
+  "microserviceName": "accounts",
+  "microservicePath": "D:\\ebank project (2) 2\\ebank project\\accounts",
+  "name": "Localtransfer",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityField": "accountNumber",
+      "otherEntityName": "bankAccount",
+      "otherEntityRelationshipName": "localtransfer",
+      "relationshipName": "bankAccount",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-one",
+      "relationshipValidateRules": ["required"]
+    }
+  ],
+  "searchEngine": "no",
+  "service": "no"
+}

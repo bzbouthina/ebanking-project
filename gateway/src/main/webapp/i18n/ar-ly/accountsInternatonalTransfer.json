@@ -1,0 +1,36 @@
+{
+  "gatewayApp": {
+    "accountsInternatonalTransfer": {
+      "home": {
+        "title": "Internatonal Transfers",
+        "refreshListLabel": "تحديث القائمة",
+        "createLabel": "إنشاء Internatonal Transfer جديد",
+        "createOrEditLabel": "إنشاء أو تعديل Internatonal Transfer",
+        "notFound": "لم يتم العثور على Internatonal Transfers"
+      },
+      "delete": {
+        "question": "هل أنت متأكد أنك تريد حذف Internatonal Transfer {{ id }}؟"
+      },
+      "detail": {
+        "title": "Internatonal Transfer"
+      },
+      "id": "ID",
+      "senderAccountNumber": "Sender Account Number",
+      "recipientIban": "Recipient Iban",
+      "swiftCode": "Swift Code",
+      "recipientName": "Recipient Name",
+      "amount": "Amount",
+      "currency": "Currency",
+      "transactionDate": "Transaction Date",
+      "description": "Description",
+      "bankAccount": "Bank Account"
+    }
+  },
+  "accountsApp": {
+    "accountsInternatonalTransfer": {
+      "created": "Internatonal Transfer جديد تم إنشاؤه بالمعرف {{ param }}",
+      "updated": "Internatonal Transfer تم تحديثه بالمعرف {{ param }}",
+      "deleted": "Internatonal Transfer تم حذفه بالمعرف {{ param }}"
+    }
+  }
+}

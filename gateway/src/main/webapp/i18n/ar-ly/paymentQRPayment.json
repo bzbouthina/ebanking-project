@@ -1,0 +1,33 @@
+{
+  "gatewayApp": {
+    "paymentsQRPayment": {
+      "home": {
+        "title": "QR Payments",
+        "refreshListLabel": "تحديث القائمة",
+        "createLabel": "إنشاء QR Payment جديد",
+        "createOrEditLabel": "إنشاء أو تعديل QR Payment",
+        "notFound": "لم يتم العثور على QR Payments"
+      },
+      "delete": {
+        "question": "هل أنت متأكد أنك تريد حذف QR Payment {{ id }}؟"
+      },
+      "detail": {
+        "title": "QR Payment"
+      },
+      "id": "ID",
+      "qrCode": "Qr Code",
+      "amount": "Amount",
+      "paymentDate": "Payment Date",
+      "description": "Description",
+      "payment": "Payment",
+      "actions": "Actions"
+    }
+  },
+  "paymentsApp": {
+    "paymentsQRPayment": {
+      "created": "QR Payment جديد تم إنشاؤه بالمعرف {{ param }}",
+      "updated": "QR Payment تم تحديثه بالمعرف {{ param }}",
+      "deleted": "QR Payment تم حذفه بالمعرف {{ param }}"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "gatewayApp": {
+    "paymentCardPayment": {
+      "home": {
+        "title": "Card Payments",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Card Payment",
+        "createOrEditLabel": "Create or edit a Card Payment",
+        "notFound": "No Card Payments found"
+      },
+      "delete": {
+        "question": "Are you sure you want to delete Card Payment {{ id }}?"
+      },
+      "detail": {
+        "title": "Card Payment"
+      },
+      "id": "ID",
+      "cardNumber": "Card Number",
+      "cardExpiryDate": "Card Expiry Date",
+      "cardHolderName": "Card Holder Name",
+      "cvv": "Cvv",
+      "amount": "Amount",
+      "paymentDate": "Payment Date",
+      "description": "Description",
+      "payment": "Payment"
+    }
+  },
+  "paymentApp": {
+    "paymentCardPayment": {
+      "created": "A new Card Payment is created with identifier {{ param }}",
+      "updated": "A Card Payment is updated with identifier {{ param }}",
+      "deleted": "A Card Payment is deleted with identifier {{ param }}"
+    }
+  }
+}

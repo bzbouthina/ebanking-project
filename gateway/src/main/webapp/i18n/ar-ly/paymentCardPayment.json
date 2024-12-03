@@ -1,0 +1,35 @@
+{
+  "gatewayApp": {
+    "paymentCardPayment": {
+      "home": {
+        "title": "Card Payments",
+        "refreshListLabel": "تحديث القائمة",
+        "createLabel": "إنشاء Card Payment جديد",
+        "createOrEditLabel": "إنشاء أو تعديل Card Payment",
+        "notFound": "لم يتم العثور على Card Payments"
+      },
+      "delete": {
+        "question": "هل أنت متأكد أنك تريد حذف Card Payment {{ id }}؟"
+      },
+      "detail": {
+        "title": "Card Payment"
+      },
+      "id": "ID",
+      "cardNumber": "Card Number",
+      "cardExpiryDate": "Card Expiry Date",
+      "cardHolderName": "Card Holder Name",
+      "cvv": "Cvv",
+      "amount": "Amount",
+      "paymentDate": "Payment Date",
+      "description": "Description",
+      "payment": "Payment"
+    }
+  },
+  "paymentApp": {
+    "paymentCardPayment": {
+      "created": "Card Payment جديد تم إنشاؤه بالمعرف {{ param }}",
+      "updated": "Card Payment تم تحديثه بالمعرف {{ param }}",
+      "deleted": "Card Payment تم حذفه بالمعرف {{ param }}"
+    }
+  }
+}

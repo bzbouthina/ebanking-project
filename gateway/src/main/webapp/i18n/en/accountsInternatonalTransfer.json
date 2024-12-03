@@ -1,0 +1,36 @@
+{
+  "gatewayApp": {
+    "accountsInternatonalTransfer": {
+      "home": {
+        "title": "Internatonal Transfers",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Internatonal Transfer",
+        "createOrEditLabel": "Create or edit a Internatonal Transfer",
+        "notFound": "No Internatonal Transfers found"
+      },
+      "delete": {
+        "question": "Are you sure you want to delete Internatonal Transfer {{ id }}?"
+      },
+      "detail": {
+        "title": "Internatonal Transfer"
+      },
+      "id": "ID",
+      "senderAccountNumber": "Sender Account Number",
+      "recipientIban": "Recipient Iban",
+      "swiftCode": "Swift Code",
+      "recipientName": "Recipient Name",
+      "amount": "Amount",
+      "currency": "Currency",
+      "transactionDate": "Transaction Date",
+      "description": "Description",
+      "bankAccount": "Bank Account"
+    }
+  },
+  "accountsApp": {
+    "accountsInternatonalTransfer": {
+      "created": "A new Internatonal Transfer is created with identifier {{ param }}",
+      "updated": "A Internatonal Transfer is updated with identifier {{ param }}",
+      "deleted": "A Internatonal Transfer is deleted with identifier {{ param }}"
+    }
+  }
+}

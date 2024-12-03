@@ -1,0 +1,19 @@
+{
+  "home": {
+    "title": "مرحباً بك في Zenith EBank!",
+    "subtitle": "بوابتك لتجربة مصرفية رقمية سلسة",
+    "logged": {
+      "message": "لقد قمت بتسجيل الدخول كمستخدم \"{{username}}\"."
+    },
+    "question": "إذا كان لديك أي استفسار حول خدماتنا:",
+    "link": {
+      "homepage": "الصفحة الرئيسية لـ Zenith EBank",
+      "stackoverflow": "Zenith EBank على Stack Overflow",
+      "bugtracker": "متتبع الأخطاء لـ Zenith EBank",
+      "chat": "غرفة الدردشة العامة لـ Zenith EBank",
+      "follow": "تابعنا على Twitter"
+    },
+    "like": "إذا أعجبتك خدماتنا، لا تنسَ أن تترك لنا تقييم على",
+    "github": "GitHub"
+  }
+}

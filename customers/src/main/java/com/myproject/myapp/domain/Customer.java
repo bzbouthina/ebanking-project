@@ -5,6 +5,7 @@ import com.myproject.myapp.domain.enumeration.CityType;
 import com.myproject.myapp.domain.enumeration.EmploymentStatus;
 import com.myproject.myapp.domain.enumeration.Gender;
 import com.myproject.myapp.domain.enumeration.NationalityType;
+import com.myproject.myapp.security.EncryptionUtil;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.*;
 import java.io.Serializable;
@@ -99,6 +100,36 @@ public class Customer implements Serializable {
     @OneToMany(fetch = FetchType.LAZY, mappedBy = "customer")
     @JsonIgnoreProperties(value = { "customer" }, allowSetters = true)
     private Set<Document> documents = new HashSet<>();
+
+
+    //-------------------------
+    // encrypting the sensitive data before saving it to db
+    @PrePersist
+    private void encryptSensitiveData() {
+        try {
+            this.nationalId = EncryptionUtil.encrypt(this.nationalId);
+            this.phoneNumber = EncryptionUtil.encrypt(this.phoneNumber);
+            this.email = EncryptionUtil.encrypt(this.email);
+            this.addressLine1 = EncryptionUtil.encrypt(this.addressLine1);
+        } catch (Exception e) {
+            throw new RuntimeException("Failed to encrypt sensitive data", e);
+        }
+    }
+    
+    // decrypting the data after geting it from db
+    @PostLoad
+    private void decryptSensitiveData() {
+        try {
+            this.nationalId = EncryptionUtil.decrypt(this.nationalId);
+            this.phoneNumber = EncryptionUtil.decrypt(this.phoneNumber);
+            this.email = EncryptionUtil.decrypt(this.email);
+            this.addressLine1 = EncryptionUtil.decrypt(this.addressLine1);
+        } catch (Exception e) {
+            throw new RuntimeException("Failed to decrypt sensitive data", e);
+        }
+    }
+    
+    //------------
 
     // jhipster-needle-entity-add-field - JHipster will add fields here
 
